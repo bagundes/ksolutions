@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\..\KS.DB.Sqlite\KS.DB.Sqlite.csproj" />
+      <ProjectReference Include="..\KS.DB\KS.DB.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="DbfDataReader" Version="0.8.0" />
+    </ItemGroup>
+
+</Project>
