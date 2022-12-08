@@ -1,5 +1,6 @@
 ﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
 	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CProgram_0020Files_0020_0028x86_0029_005CSAP_005CSAP_0020Business_0020One_0020SDK_005CLib_005CSAPBusinessOneSDK_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=_002Fhome_002Fbfagundes_002FFiles_002FProjects_002FProgram_0020Files_0020_0028x86_0029_002FSAP_002FSAP_0020Business_0020One_0020SDK_002FLib_002FSAPBusinessOneSDK_002Edll/@EntryIndexedValue">True</s:Boolean>
 	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=69b7c120_002D859f_002D4425_002Da2d2_002D057e6fc7b2a8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PrintScreen" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
     &lt;TestId&gt;NUnit3x::0C30861F-E6DD-42E0-A98F-4BFDB2F79891::net6.0::KS.Test.Windows.ScreenTest.PrintScreen&lt;/TestId&gt;&#xD;
