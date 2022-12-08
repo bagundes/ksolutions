@@ -19,6 +19,17 @@
       <ProjectReference Include="..\..\KS.DB.Foxpro\KS.DB.Foxpro.csproj" />
       <ProjectReference Include="..\..\KS.DB\KS.DB.csproj" />
       <ProjectReference Include="..\..\KS.Shared\KS.Shared.csproj" />
+      <ProjectReference Include="..\KS.Core\KS.Core.csproj" />
+      <ProjectReference Include="..\KS.DB.Foxpro\KS.DB.Foxpro.csproj" />
+      <ProjectReference Include="..\KS.DB.Sqlite\KS.DB.Sqlite.csproj" />
+      <ProjectReference Include="..\KS.DB\KS.DB.csproj" />
+      <ProjectReference Include="..\KS.Network.Ftp\KS.Network.Ftp.csproj" />
+      <ProjectReference Include="..\KS.Network\KS.Network.csproj" />
+      <ProjectReference Include="..\KS.SBO.DI\KS.SBO.DI.csproj" />
+      <ProjectReference Include="..\KS.SBO.UI\KS.SBO.UI.csproj" />
+      <ProjectReference Include="..\KS.SBO\KS.SBO.csproj" />
+      <ProjectReference Include="..\KS.Shared\KS.Shared.csproj" />
+      <ProjectReference Include="..\KS.Windows\KS.Windows.csproj" />
     </ItemGroup>
 
 </Project>

@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="content" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="SAPBusinessOneSDK">
+        <HintPath>..\..\..\Program Files (x86)\SAP\SAP Business One SDK\Lib\SAPBusinessOneSDK.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\KS.Core\KS.Core.csproj" />
+      <ProjectReference Include="..\KS.SBO.DI\KS.SBO.DI.csproj" />
+      <ProjectReference Include="..\KS.SBO\KS.SBO.csproj" />
+    </ItemGroup>
+
+</Project>

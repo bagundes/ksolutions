@@ -1,4 +1,4 @@
-namespace KS.Core.Enums;
+namespace KS.Core.Lists;
 
 public class Constants
 {

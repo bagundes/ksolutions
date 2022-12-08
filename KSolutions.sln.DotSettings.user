@@ -1,0 +1,22 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:Boolean x:Key="/Default/AddReferences/RecentPaths/=C_003A_005CProgram_0020Files_0020_0028x86_0029_005CSAP_005CSAP_0020Business_0020One_0020SDK_005CLib_005CSAPBusinessOneSDK_002Edll/@EntryIndexedValue">True</s:Boolean>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=69b7c120_002D859f_002D4425_002Da2d2_002D057e6fc7b2a8/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PrintScreen" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0C30861F-E6DD-42E0-A98F-4BFDB2F79891::net6.0::KS.Test.Windows.ScreenTest.PrintScreen&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7505c4b7_002Db7d7_002D44f8_002Da3aa_002D3cee786e2606/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="PrintScreen #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;Or&gt;&#xD;
+    &lt;ProjectFile&gt;0C30861F-E6DD-42E0-A98F-4BFDB2F79891/d:Windows/f:ScreenTest.cs&lt;/ProjectFile&gt;&#xD;
+    &lt;TestAncestor&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::D5DD4155-B0E7-41A2-8F8C-7EBD0FD327CA::net6.0::KS.Test.SBO.UI.Forms.Form&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::D5DD4155-B0E7-41A2-8F8C-7EBD0FD327CA::net6.0::KS.Test.SBO.UI.Forms&lt;/TestId&gt;&#xD;
+      &lt;TestId&gt;NUnit3x::D5DD4155-B0E7-41A2-8F8C-7EBD0FD327CA::net6.0::KS.Test.SBO.UI.Client.Log&lt;/TestId&gt;&#xD;
+    &lt;/TestAncestor&gt;&#xD;
+  &lt;/Or&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=aa611afb_002D9ecd_002D4e46_002D812f_002D6b3809cd5c6d/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="PrintScreen #3" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;NUnit3x::0C30861F-E6DD-42E0-A98F-4BFDB2F79891::net6.0::KS.Test.Windows.ScreenTest.PrintScreen&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

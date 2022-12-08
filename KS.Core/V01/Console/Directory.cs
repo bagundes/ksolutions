@@ -1,3 +1,5 @@
+using KS.Core.Lists;
+
 namespace KS.Core.V01.Console;
 
 public static class Directory
@@ -10,11 +12,11 @@ public static class Directory
     /// <returns>Directory exist</returns>
     public static bool Exists(string path, out string formated)
     {
-        var variable = Enums.Constants.ROOT_PATH.GetType().Name;
+        var variable = Constants.ROOT_PATH.GetType().Name;
 
         if (path.Equals(variable))
         {
-            formated = Enums.Constants.ROOT_PATH;
+            formated = Constants.ROOT_PATH;
             return true;
         }
         else

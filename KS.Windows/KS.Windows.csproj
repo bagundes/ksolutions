@@ -7,13 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\KS.DB.Sqlite\KS.DB.Sqlite.csproj" />
-      <ProjectReference Include="..\KS.DB.Sqlite\KS.DB.Sqlite.csproj" />
-      <ProjectReference Include="..\KS.DB\KS.DB.csproj" />
+      <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+      <PackageReference Include="System.Management" Version="7.0.0" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="DbfDataReader" Version="0.8.0" />
+      <ProjectReference Include="..\KS.Core\KS.Core.csproj" />
     </ItemGroup>
 
 </Project>

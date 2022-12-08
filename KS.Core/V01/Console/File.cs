@@ -30,7 +30,11 @@ public static class File
         if (!String.IsNullOrEmpty(extension))
         {
             System.IO.File.Delete(tempFile);
-            tempFile = $"{tempFile}.{extension}";
+            if (!String.IsNullOrEmpty(extension))
+            {
+                tempFile = tempFile.Replace(".tmp", "");
+                tempFile = $"{tempFile}.{extension}";
+            }
         }
 
         return tempFile;

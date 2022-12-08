@@ -11,6 +11,7 @@
     <ItemGroup>
       <PackageReference Include="NCrontab" Version="3.3.1" />
       <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+      <PackageReference Include="ScreenshotTaker" Version="1.0.2" />
     </ItemGroup>
 
     <ItemGroup>
@@ -22,6 +23,15 @@
       <Content Include="content\key">
         <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
       </Content>
+      <None Remove="V01\Windows\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Compile Remove="V01\Windows\**" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <EmbeddedResource Remove="V01\Windows\**" />
     </ItemGroup>
 
 </Project>

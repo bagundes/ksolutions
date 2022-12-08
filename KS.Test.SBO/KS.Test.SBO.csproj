@@ -1,0 +1,32 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+
+        <IsPackable>false</IsPackable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+        <PackageReference Include="NUnit" Version="3.13.3" />
+        <PackageReference Include="NUnit3TestAdapter" Version="4.2.1" />
+        <PackageReference Include="NUnit.Analyzers" Version="3.3.0" />
+        <PackageReference Include="coverlet.collector" Version="3.1.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\KS.Core\KS.Core.csproj" />
+      <ProjectReference Include="..\KS.SBO.DI\KS.SBO.DI.csproj" />
+      <ProjectReference Include="..\KS.SBO.UI\KS.SBO.UI.csproj" />
+      <ProjectReference Include="..\KS.SBO\KS.SBO.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="SAPBusinessOneSDK">
+        <HintPath>..\..\..\Program Files (x86)\SAP\SAP Business One SDK\Lib\SAPBusinessOneSDK.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
+</Project>
