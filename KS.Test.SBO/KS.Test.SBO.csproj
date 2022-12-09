@@ -24,9 +24,9 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Reference Include="SAPBusinessOneSDK">
-        <HintPath>..\..\..\Program Files (x86)\SAP\SAP Business One SDK\Lib\SAPBusinessOneSDK.dll</HintPath>
-      </Reference>
+        <Reference Include="SAPBusinessOneSDK">
+            <HintPath>..\KS.SBO\content\SAPBusinessOneSDK.dll</HintPath>
+        </Reference>
     </ItemGroup>
 
 </Project>

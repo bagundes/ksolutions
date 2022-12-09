@@ -6,8 +6,12 @@ public interface IConnFactory : IDisposable
     void Connect();
     void Disconnect();
     int Execute(string sql);
+    
     IEnumerable<KS.DB.V1.Models.RowModel> Query(string sql);
 
+    
+    
+    
     bool Cached { get; }
 
     /// <summary>

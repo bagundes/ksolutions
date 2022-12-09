@@ -7,7 +7,15 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\KS.Core\KS.Core.csproj" />
+      <ProjectReference Include="..\KS.DB\KS.DB.csproj" />
       <ProjectReference Include="..\KS.SBO\KS.SBO.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Reference Include="SAPBusinessOneSDK">
+        <HintPath>..\KS.SBO\content\SAPBusinessOneSDK.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>

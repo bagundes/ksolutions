@@ -8,8 +8,9 @@
 
     <ItemGroup>
       <Reference Include="SAPBusinessOneSDK">
-        <HintPath>..\..\..\Program Files (x86)\SAP\SAP Business One SDK\Lib\SAPBusinessOneSDK.dll</HintPath>
+        <HintPath>..\..\..\..\..\Program Files (x86)\SAP\SAP Business One SDK\Lib\SAPBusinessOneSDK.dll</HintPath>
       </Reference>
     </ItemGroup>
+    
 
 </Project>
